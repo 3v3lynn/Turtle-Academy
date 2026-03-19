@@ -7,7 +7,7 @@ Before starting a new drawing you can always clear the screen with the following
 
 We can use shortcuts to some commands. Instead of "right" it's enough to write **rt** . Instead of "left" write **lt** , instead of "forward" write **fd**, and instead of "clearscreen" **cs**
 
-![[Pasted image 20260319125502.png]]
+![imagen](../img/logosturtleimg.png)
 
 ```
 fd 50 lt 90 fd 30

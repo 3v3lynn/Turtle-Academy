@@ -17,7 +17,7 @@ Using the command **changeshape** or **csh** with the animal name or id.
 **csh "dog** will change the turtle to a dog while **csh 3** will do exactly the same.  
 Change the turtle into a cat using "STR
 
-![[Pasted image 20260319134134.png]]
+![Imagen](../img/turtleworldimg.png)
 
 ```
 

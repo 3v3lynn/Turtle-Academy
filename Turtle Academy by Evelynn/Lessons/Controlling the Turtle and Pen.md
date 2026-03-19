@@ -18,7 +18,7 @@ hideturtle -> ht
 showturtle -> st
 
 
-![[Pasted image 20260319131555.png]]
+![imagen](../img/controllingtheturtleandpenimg.png)
 
 ```
 
