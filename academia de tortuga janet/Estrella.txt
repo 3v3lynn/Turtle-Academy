@@ -1,0 +1,12 @@
+Estrella
+
+1er I
+hacer "x 100
+de 18 repetir 5 [ad :x de 144]
+
+2do I
+hacer "0.25x 50   hacer "0.5x sumar :0.25x :0.25x hacer "x sumar :0.5x :0.5x ponercolor "amarillo
+Para Estrella de 18 repetir 5 [ad :x de 144] fin
+Estrella
+sl de 10 ad :0.25x rellenar repetir 4 [ad :0.5x rellenar de 144] ad :0.25x rellenar
+
