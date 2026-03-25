@@ -1,155 +1,30 @@
-1ER INTENTO
-hacer "0.5x 11.9 hacer "x sumar :0.5x :0.5x hacer "1.5x sumar :0.5x :x hacer "2x sumar :x :x hacer "3x sumar :2x :x
-hacer "2x sumar :x :x hacer "3x sumar :2x :x
-Para cabeza repetir 30 [ad 5 de 12] fin
-para tronco sl de 90 ad :x de 90 ad :x bl ad :3x  fin
-para brazos sl de 90 ad :x de 90 ad :2x de 90 bl ad :2x fin
-para piernaizq sl  de 90 ad :2x  de 90 ad :x bl iz 135 ad :1.5x sl at :1.5x fin
-para piernaderc bl de 90 ad :1.5x de 135 repetir 5 [ad :x]fin
-para hombre cabeza tronco brazos piernaizq piernaderc fin
+Hombre en movimiento
+De Janet Ester ALBAGLI
+Marzo del 2026
+Materia: Algoritmo y estructura de datos
+Versión en español para Turtle Academy
+Aclaracio y=arcoseno (0.5l/1.5l)
+hacer "0.25l 15 hacer "a 13 hacer "t 10 hacer "y 19.5
+hacer "0.5l sumar :0.25l :0.25l hacer "l sumar :0.5l :0.5l 
+hacer "1.5l sumar :0.5l :l hacer "2l sumar :l :l   
+para linea :x ad :x sl at :x  bl fin
+para cabeza :c arco 360 :c sl at :c fin
+para tronco linea :2l fin
+para extremos :gi :gd de :gd linea :1.5l iz sumar :gd :gi linea :1.5l de :gi fin
+Para hombre :am cabeza :0.5l de 180 bl tronco sl ad :0.25l bl extremos :am :am sl ad sumar :0.25l :1.5l bl extremos :am :am de 180 sl ad sumar :2l :0.5l fin
+para av sl de 90 ad :0.5l iz 90 bl fin
+ot repetir :a [hombre :y espera :t borrar av hombre 0 espera :t borrar av]
 
 
-2DO INTENTO 
-hacer "0.5x 10 hacer "x sumar :0.5x :0.5x hacer "1.5x sumar :0.5x :x hacer "2x sumar :x :x hacer "3x sumar :2x :x
-hacer "2x sumar :x :x hacer "3x sumar :2x :x
-Para cabeza arco 360 :x fin
-para tronco sl de 180 ad :x bl ad :3x  fin
-para brazos sl de 90 ad :x de 90 ad :2x de 90 bl ad :2x fin
-para piernaizq sl  de 90 ad :2x  de 90 ad :x bl iz 135 ad :1.5x sl at :1.5x fin
-para piernaderc bl de 90 ad :1.5x sl at :1.5x iz 45 repetir 4 [at :x] de 180 fin
-para hombre cabeza tronco brazos piernaizq piernaderc fin
-Para Caminar repetir 30 [hombre bp sl ad sumar :2x :3x de 90 ad :x bl] fin
 
-3er intento
-hacer "0.5x 10 hacer "x sumar :0.5x :0.5x hacer "1.5x sumar :0.5x :x hacer "2x sumar :x :x hacer "3x sumar :2x :x
-hacer "2x sumar :x :x hacer "3x sumar :2x :x hacer "a 100
-Para cabeza arco 360 :x fin
-para tronco sl de 180 ad :x bl ad :3x  fin
-para brazos sl de 90 ad :x de 90 ad :2x de 90 bl ad :2x fin
-para piernaizq sl  de 90 ad :2x  de 90 ad :x bl iz 135 ad :1.5x sl at :1.5x fin
-para piernaderc bl de 90 ad :1.5x sl at :1.5x iz 45 repetir 4 [at :x] de 180 fin
-para hombre cabeza tronco brazos piernaizq piernaderc fin
-Para Caminar repetir :a [hombre espera 15 desaparecer sl de 90 ad :0.5x iz 90 bl] hombre fin
-Para desaparecer ponercolor "blanco ponergrosor 3 hombre ponercolor "negro ponergrosor 1 fin
-ocultartortuga hombre caminar 
-
-
-4t0 intento
-hacer "0.25x 10 hacer "0.5x sumar :0.25x :0.25x hacer "x sumar :0.5x :0.5x hacer "1.5x sumar :0.5x :x hacer "2x sumar :x :x hacer "3x sumar :2x :x
-hacer "2x sumar :x :x hacer "3x sumar :2x :x hacer "a 10
-Para cabeza arco 360 :x fin
-para tronco sl de 180 ad :x bl ad :2x  fin
-para brazos sl at :1.5x iz 45 bl ad :1.5x sl at :1.5x de 90 bl ad :1.5x sl at :1.5x iz 45 ad :1.5x fin
-para piernaderc bl iz 45 ad :1.5x sl at :1.5x fin
-para piernaizq bl de 90 ad :1.5x sl at :1.5x iz 45 repetir 3 [at :x] de 180 fin
-para hombre cabeza tronco brazos piernaderc piernaizq fin
-Para desaparecer ponercolor "blanco ponergrosor 3 hombre ponercolor "negro ponergrosor 1 fin
-ocultartortuga
-repetir :a [hombre espera 15 desaparecer 
-para brazos sl at :1.5x iz 10 bl ad :1.5x sl at :1.5x de 55 bl ad :1.5x sl at :1.5x iz 45 ad :1.5x fin
-para piernaderc bl iz 45 ad :1.5x sl at :1.5x fin
-para piernaizq bl de 55 ad :1.5x sl at :1.5x iz 10 repetir 3 [at :x] de 180 fin
-hombre espera 15 desaparecer
-para brazos sl at :1.5x iz 17.5 bl ad :1.5x sl at :1.5x de 35 bl ad :1.5x sl at :1.5x iz 17.5 ad :1.5x fin
-para piernaderc bl iz 17.5 ad :1.5x sl at :1.5x fin
-para piernaizq bl de 35 ad :1.5x sl at :1.5x iz 17.5 repetir 3 [at :x] de 180 fin
-de 90 ad :0.25x iz 90 hombre espera 15 desaparecer
-para brazos sl at :1.5x iz 45 bl ad :1.5x sl at :1.5x de 55 bl ad :1.5x sl at :1.5x iz 10 ad :1.5x fin
-para piernaderc bl iz 10 ad :1.5x sl at :1.5x fin
-para piernaizq bl de 55 ad :1.5x sl at :1.5x iz 45 repetir 3 [at :x] de 180 fin]
-
-5to intento
-hacer "0.25x 10 hacer "0.5x sumar :0.25x :0.25x hacer "x sumar :0.5x :0.5x hacer "1.5x sumar :0.5x :x hacer "2x sumar :x :x hacer "3x sumar :2x :x
-hacer "2x sumar :x :x hacer "3x sumar :2x :x hacer "a 10
-Para cabeza arco 360 :x fin
-para tronco sl de 180 ad :x bl ad :2x  fin
-para brazos sl at :1.5x iz 45 bl ad :1.5x sl at :1.5x de 90 bl ad :1.5x sl at :1.5x iz 45 ad :1.5x fin
-para piernaderc bl iz 45 ad :1.5x sl at :1.5x fin
-para piernaizq bl de 90 ad :1.5x sl at :1.5x iz 45 repetir 3 [at :x] de 180 fin
-para hombre cabeza tronco brazos piernaderc piernaizq fin
-Para desaparecer ponercolor "blanco ponergrosor 3 hombre ponercolor "negro ponergrosor 1 fin
-ocultartortuga
-hombre espera 50 desaparecer 
-para brazos sl at :1.5x iz 10 bl ad :1.5x sl at :1.5x de 55 bl ad :1.5x sl at :1.5x iz 45 ad :1.5x fin
-  para piernaderc bl iz 45 ad :1.5x sl at :1.5x fin
-para piernaizq bl de 55 ad :1.5x sl at :1.5x iz 10 repetir 3 [at :x] de 180 fin
-hombre espera 50 desaparecer
-de 90 ad :0.25x iz 90
-para brazos sl at :1.5x iz 45 bl ad :1.5x sl at :1.5x de 55 bl ad :1.5x sl at :1.5x iz 10 ad :1.5x fin
-para piernaderc bl iz 10 ad :1.5x sl at :1.5x fin
-para piernaizq bl de 55 ad :1.5x sl at :1.5x iz 45 repetir 3 [at :x] de 180 fin hombre
-
-
-6to intento
-hacer "0.25x 10 hacer "0.5x sumar :0.25x :0.25x hacer "x sumar :0.5x :0.5x hacer "1.5x sumar :0.5x :x hacer "2x sumar :x :x hacer "3x sumar :2x :x
-hacer "2x sumar :x :x hacer "3x sumar :2x :x hacer "a 10
-para piernaizq de 10 ad :1.5x iz 10 fin
-para tronco ad :2x fin
-para cabeza sl ad :x bl arco 360 :x sl at :1.5x fin
-para brazos bl de 170 ad :1.5x sl at :1.5x de 55 bl ad :1.5x sl at :1.5x iz 45 ad :1.5x fin
-para piernaderc bl iz 45 ad :1.5x iz 135 fin
-para hombre piernaizq tronco cabeza brazos piernaderc fin
-Para desaparecer ponercolor "blanco rellenar ponercolor "negro fin
-ocultartortuga
-Repetir :a [hombre
-Para posicion1 piernaizq de 10 ad :1.5x iz 10 fin
-para brazos bl de 170 ad :1.5x sl at :1.5x de 55 bl ad :1.5x sl at :1.5x iz 45 ad :1.5x fin
-para piernaderc bl iz 45 ad :1.5x iz 135 fin
-hombre espera 15 desaparecer
-Para posicion2 piernaizq de 45 ad :1.5x iz 45 fin
-para brazos bl de 135 ad :1.5x sl at :1.5x de 55 bl ad :1.5x sl at :1.5x iz 10 ad :1.5x fin
-para piernaderc bl iz 10 ad :1.5x iz 170 fin
-
-
-7mo
-hacer "0.25x 10 hacer "0.5x sumar :0.25x :0.25x hacer "x sumar :0.5x :0.5x hacer "1.5x sumar :0.5x :x hacer "2x sumar :x :x hacer "3x sumar :2x :x
-hacer "2x sumar :x :x hacer "3x sumar :2x :x hacer "a 10
-para piernaizq de 10 ad :1.5x iz 10 fin
-para tronco ad :2x fin
-para cabeza sl ad :x bl arco 360 :x sl at :1.5x fin
-para brazos bl de 170 ad :1.5x sl at :1.5x de 55 bl ad :1.5x sl at :1.5x iz 45 ad :1.5x fin
-para piernaderc bl iz 45 ad :1.5x iz 135 fin
-para hombre piernaizq tronco cabeza brazos piernaderc fin
-para bp1 sl iz 45 ad :1.5x de 55 at :1.5x iz 10 ponercolor "blanco ponergrosor 4 hombre ponercolor "negro ponergrosor 1 fin
-hombre bp1
-
-8v0
-hacer "0.25x 10 hacer "0.3y 10 hacer "a 100
-hacer "0.5x sumar :0.25x :0.25x hacer "x sumar :0.5x :0.5x hacer "1.5x sumar :0.5x :x hacer "2x sumar :x :x hacer "3x sumar :2x :x hacer "2x sumar :x :x hacer "3x sumar :2x :x   
-hacer "0.6y sumar :0.3y :0.3y hacer "y sumar :0.3y :0.6y   hacer "1.3y sumar :Y :0.3y hacer "r1 restar 180 :0.3y hacer "r2 restar 180 :y
-para piernaizq de :0.3y ad :1.5x iz :0.3y fin
-para tronco ad :2x fin
-para cabeza sl ad :x bl arco 360 :x sl at :1.5x fin
-para brazos bl de :r1 ad :1.5x sl at :1.5x de :1.3y bl ad :1.5x sl at :1.5x iz :y ad :1.5x fin
-para piernaderc bl iz :y ad :1.5x iz :r2 fin
-Para piernaizq2 de :y ad :1.5x iz :y fin
-para brazos2 bl de :r2 ad :1.5x sl at :1.5x de :1.3y bl ad :1.5x sl at :1.5x iz :0.3y ad :1.5x fin
-para piernaderc2 bl iz :0.3y ad :1.5x iz :r1 fin
-para hombre piernaizq tronco cabeza brazos piernaderc fin
-para bp1 bl de :r2 at :1.5x de :1.3y ad :1.5x de :r1 bl ponercolor "blanco ponergrosor 4 hombre ponercolor "negro ponergrosor 1 fin
-para hombre2 piernaizq2 tronco cabeza brazos2 piernaderc2 fin
-para bp2 bl de :r1 at :1.5x de :1.3y ad :1.5x de :r2 bl ponercolor "blanco ponergrosor 4 hombre2 ponercolor "negro ponergrosor 1  fin
-ocultartortuga
-repetir :a [hombre espera 10 bp1 hombre2 espera 10 bp2]
-
-9no
-hacer "0.25x 10 hacer "0.3y 10 hacer "a 100
-hacer "0.5x sumar :0.25x :0.25x hacer "x sumar :0.5x :0.5x 
-hacer "1.5x sumar :0.5x :x hacer "2x sumar :x :x    
-hacer "0.6y sumar :0.3y :0.3y hacer "y sumar :0.3y :0.6y   hacer "1.3y sumar :Y :0.3y hacer "r1 sumar 180 -:0.3y hacer "r2 sumar 180 -:y
-para piernaizq de :0.3y ad :1.5x iz :0.3y fin
-para tronco ad :2x fin
-para cabeza sl ad :x bl arco 360 :x sl at :1.5x fin
-para brazos bl de :r1 ad :1.5x sl at :1.5x de :1.3y bl ad :1.5x sl at :1.5x iz :y ad :1.5x fin
-para piernaderc bl iz :y ad :1.5x iz :r2 fin
-Para piernaizq2 de :y ad :1.5x iz :y fin
-para brazos2 bl de :r2 ad :1.5x sl at :1.5x de :1.3y bl ad :1.5x sl at :1.5x iz :0.3y ad :1.5x fin
-para piernaderc2 bl iz :0.3y ad :1.5x iz :r1 fin
-para hombre piernaizq tronco cabeza brazos piernaderc fin
-para bp1 bl de :r2 at :1.5x de :1.3y ad :1.5x de :r1 bl ponercolor "blanco ponergrosor 4 hombre ponercolor "negro ponergrosor 1 fin
-para hombre2 piernaizq2 tronco cabeza brazos2 piernaderc2 fin
-para bp2 bl de :r1 at :1.5x de :1.3y ad :1.5x de :r2 bl ponercolor "blanco ponergrosor 4 hombre2 ponercolor "negro ponergrosor 1  fin
-ocultartortuga
-repetir :a [hombre espera 10 bp1 hombre2 espera 10 bp2]
-
-
+hacer "0.25l 15 hacer "a 30 hacer "t 10 hacer "y 19.5
+hacer "0.5l sumar :0.25l :0.25l hacer "l sumar :0.5l :0.5l 
+hacer "1.5l sumar :0.5l :l hacer "2l sumar :l :l   
+para linea :x ad :x sl at :x  bl fin
+para cabeza :c arco 360 :c sl at :c fin
+para tronco linea :2l fin
+para extremos :gi :gd de :gd linea :1.5l iz sumar :gd :gi linea :1.5l de :gi fin
+Para hombre :am1 :am2 cabeza :0.5l de 180 bl tronco sl ad :0.25l bl extremos :am1 :am2 sl ad sumar :0.25l :1.5l bl extremos :am2 :am1 de 180 sl ad sumar :2l :0.5l fin
+para av sl de 90 ad :0.5l iz 90 bl fin
+para av2 sl de 90 ad :0.25l iz 90 bl fin
+ot repetir :a [hombre 0 0 espera :t borrar hombre :y :y espera :t borrar  av]
